@@ -4,8 +4,8 @@ import image from '../images/josh-hild-XgoBtmlAgvQ-unsplash.jpg'
 const headers = () => {
     return (
         <div className="headers">
-            <div className="titlesm">My first Blog</div>
-            <div className="titlelg">Blog</div>
+            <span className="titlesm">My first Blog</span>
+            <span className="titlelg">Blog</span>
             <img className="blog-img" src={image}alt="" srcset="" />
         </div>
     )
