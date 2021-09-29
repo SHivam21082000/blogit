@@ -1,0 +1,23 @@
+.headers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titlesm{
+    position: absolute;
+    top: 10%;
+    font-size: 20px;
+}
+.titlelg{
+    position: absolute;
+    top: 11%;
+    font-size: 100px;
+}
+.blog-img{
+    width: 100%;
+    margin-top: 180px;
+    height: 450px;
+    object-fit: cover;
+}
