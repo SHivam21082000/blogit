@@ -1,0 +1,48 @@
+.topbar{
+    display: flex;
+    background-color: #6666;
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    top: 0;
+}
+
+.topleft,.topright{
+    display: flex;
+    flex: 3;
+    align-items: center;
+    justify-content: center;
+}
+.topcenter{
+    flex: 6;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.nav-items{
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.icons{
+    font-size: large;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.profile-pic{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.search-bar{
+    margin-left: 15px;
+    font-size: 20px;
+    color: ;
+}
