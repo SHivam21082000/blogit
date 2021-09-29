@@ -1,0 +1,44 @@
+.onepost{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 40px 20px 25px;
+}
+.post-img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 7px;
+}
+.onepost-title{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.postinfo{
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.onepost-categories{
+    font-family: 'Lora', serif;
+    color: #be9656;
+    margin-right: 10px;
+    font-size: 15px;
+}
+.post-desc{
+    text-align: center;
+    font-size: 16px;
+    color: #444;
+    line-height: 26px;
+    margin-top: 15px;
+    font-family: 'Varela Round', sans-serif;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    
+}
