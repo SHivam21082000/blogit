@@ -1,6 +1,6 @@
 .topbar{
     display: flex;
-    background-color: rgb(245, 241, 241);
+    background-color: #fff;
     width: 100%;
     height: 50px;
     position: sticky;
@@ -8,6 +8,9 @@
     font-family: 'Josefin Sans', sans-serif;
     z-index: 1000000;
     color: #444;
+    box-shadow: -8px 5px 21px -4px rgba(0,0,0,0.85);
+    -webkit-box-shadow: -8px 5px 21px -4px rgba(0,0,0,0.85);
+    -moz-box-shadow: -8px 5px 21px -4px rgba(0,0,0,0.85);
 }
 
 .topleft,.topright{
