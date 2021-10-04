@@ -1,6 +1,7 @@
 import React from 'react'
 import image from '../images/billow926-VvXFSTrAip0-unsplash.jpg'
 import '../css/postCreate.css'
+import Sidebar from './Sidebar'
 const PostCreate = () => {
     return (
         <div className="postCreate">

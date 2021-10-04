@@ -8,8 +8,9 @@ import './Home.css'
 const Home = () => {
     return (
         <>
+            <Headers />
             <div className="home">
-                <Write/>
+                <Post />
                 <Sidebar />
             </div>
         </>
