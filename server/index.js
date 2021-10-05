@@ -3,6 +3,7 @@ const app = express();
 const dotenv = require('dotenv');
 const mongoose = require('mongoose');
 const authRouter = require('./routes/auth')
+const userRouter = require('./routes/users')
 dotenv.config()
 app.use(express.json())
 
@@ -17,6 +18,7 @@ app.get('/',(req,res)=>{
 })
 
 app.use("/auth", authRouter)
+app.use('/user', userRouter)
 
 app.listen('3001',()=>{
     console.log("app is running")
