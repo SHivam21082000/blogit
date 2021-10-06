@@ -1,16 +1,12 @@
 import React from 'react'
 import '../css/post.css'
 import Onepost from './Onepost'
-const post = () => {
+const post = ({posts}) => {
     return (
         <div className="post">
-            <Onepost/>
-            <Onepost/>
-            <Onepost/>
-            <Onepost/>
-            <Onepost/>
-            <Onepost/>
-            <Onepost/>
+           {posts.map((p)=>(
+               <Onepost post={p}/>
+           ))}
         </div>
     )
 }

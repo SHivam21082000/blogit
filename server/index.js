@@ -37,10 +37,10 @@ const storage = multer.diskStorage({
     res.status(200).json("File has been uploaded");
   });
 
-app.use("/auth", authRouter)
-app.use('/user', userRouter)
-app.use('/post',postRouter);
-app.use('/categories',categoryRouter)
+app.use("/api/auth", authRouter)
+app.use('/api/user', userRouter)
+app.use('/api/post',postRouter);
+app.use('/api/categories',categoryRouter)
 
 app.listen('3001',()=>{
     console.log("app is running")
